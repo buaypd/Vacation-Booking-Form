@@ -1,0 +1,24 @@
+{
+  "name": "vacation-booking-form",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000V\u0000a\u0000c\u0000a\u0000t\u0000i\u0000o\u0000n\u0000-\u0000B\u0000o\u0000o\u0000k\u0000i\u0000n\u0000g\u0000-\u0000F\u0000o\u0000r\u0000m\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buaypd/Vacation-Booking-Form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/buaypd/Vacation-Booking-Form/issues"
+  },
+  "homepage": "https://github.com/buaypd/Vacation-Booking-Form#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

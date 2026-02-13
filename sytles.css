@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b3d91;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+}
+#vacation-booking-form {
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+#vacation-booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#vacation-booking-form label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#vacation-booking-form input,
+#vacation-booking-form select {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+#vacation-booking-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#vacation-booking-form button:hover {
+    background-color: blue;
+}
