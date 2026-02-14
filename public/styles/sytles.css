@@ -9,17 +9,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
 }
 
 h1{
     text-align: center;
+    color: white;
+    font-size: 45px;
+    margin: 0;
 }
 
 #vacation-booking-form {
     background-color: white;
     width: 800px;
-    padding: 30px;
+    padding: 0px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -42,38 +45,60 @@ h1{
     padding: 8px;
     margin-top: 5px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 0px;
     font-size: 14px;
-    width: 100%;
+    width: 75%;
 }
 
 .row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 100px;
     margin-top: 15px;
 }
-
+#headerONE {
+    text-align: left;
+}
+.row label {
+    text-align: left;
+}
+.form-header {
+    background-image: url('\images\beach.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 30px;
+    position: relative;
+    border-radius: 12px 12px 0 0;
+}
 #vacation-booking-form button {
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 12px 100px;
     background-color: blue;
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 26px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     width: auto;
+    flex-direction: column;
     align-self: center;
+    margin-bottom: 30px;
 }
 
 #vacation-booking-form button:hover {
-    background-color: #0056b3;
+    background-color: blue;
 }
 
 fieldset {
-    border: none;
-    padding: 0;
-    margin: 0;
+border: none;
+padding: 60px 60px;
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.err {
+    display: none;
+    color: red;
 }
